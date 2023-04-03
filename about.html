@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 24.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 3px 4px 8px 7px rgba(0, 0, 0, 0.2);
+  margin: 40px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  font-family: Verdana, Tahoma, sans-serif ;
+  background-color: #474e5d;
+  color: rgb(223, 213, 213);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  
+  <p style="color: bisque">Library sets the goal integrating information sources and services across disciplines in one umbrella by building a sound and
+     comprehensive collection of both conventional and electronic resources on all branches of knowledge with a robust hi-tech 
+     infrastructural facilities and to redesign the systems and services in efficient, effective, and dynamic ways tailoring to 
+     meet the myriad information needs of students,research scholars, and faculty members of the university pin-pointedly, exhaustively 
+     and expeditiously anywhere on campus for promoting academic excellence.</p>
+</div>
+
+<h2 style="text-align:center; color: rgb(19, 81, 61);">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./sambit.jpg" alt="UCSE21050" style="width:100%">
+      <div class="container">
+        <h2>Sambit Kumar Meher</h2>
+        <p class="title">UCSE21050</p>
+
+        <p>UCSE21050@stu.xim.edu.in</p>
+        <p><a href="mailto:ucse21050@stu.xim.edu.in"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./pratik_2.jpg" alt="UCSE21045" style="width: 100%">
+      <div class="container">
+        <h2>Pratik Das</h2>
+        <p class="title">UCSE21045</p>
+        
+        <p>UCSE21045@stu.xim.edu.in</p>
+        <p><a href="mailto:ucse21045@stu.xim.edu.in"><button class="button">Contact</button></p></a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="./prerna_3.jpg" alt="UCSE21061" style="width:100%">
+      <div class="container">
+        <h2>Prerna Pattanaik</h2>
+        <p class="title">UCSE21061</p>
+        
+        <p>ucse21061@stu.xim.edu.in</p>
+        <p><a href="mailto:ucse21061@stu.xim.edu.in"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+    <div class="column">
+    <div class="card">
+      <img src="./tattvam_4.jpeg" alt="UCSE21065" style="width:100%">
+      <div class="container">
+        <h2>Tattvam Shiva Chaturvedi</h2>
+        <p class="title">UCSE21065</p>
+
+        <p>UCSE21065@stu.xim.edu.in</p>
+        <p><a href="mailto:ucse21065@stu.xim.edu.in"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
